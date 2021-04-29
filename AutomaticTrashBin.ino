@@ -12,7 +12,7 @@ void setup() {
   // put your setup code here, to run once:
 pinMode(echoPin,INPUT);
 pinMode(trigPin,OUTPUT);
-servo.attach(4); 
+servo.attach(servoPin); 
 }
 
 void loop() {
